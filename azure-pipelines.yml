@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: Self-hosted DevOps
+  name: Self-hosted DevOps
 
 steps:
 - task: Maven@3
